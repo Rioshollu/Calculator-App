@@ -1,3 +1,3 @@
 # Calculator-App
 
-Calculator ini adalah project pertama saya dalam menggunakan bahasa Javascript pada kelas Dicoding
+Calculator ini adalah project yang saya buat pada kelas kelas Dicoding dalam mempelajari bahasa Javascript
