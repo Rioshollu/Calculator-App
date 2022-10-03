@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: sans-serif;
+}
+/* End Body */
+
+/* Container */
+.flex-container-colums {
+    display: flex;
+    flex-direction: column;
+    /* Properti pendukung */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.flex-container-row {
+    display: flex;
+}
+/* End Container */
+
+/* Button */
+.button {
+    flex-basis: 25%;
+    /* Properti pendukung */
+    font-size: 2em;
+    text-align: center;
+    padding: 45px;
+    border: 2px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+}
+
+.button:hover {
+    font-weight: bold;
+}
+/* End Button */
+
+/* display */
+.display {
+    text-align: right;
+    font-size: 2em;
+    background-color: #2C3333;
+    padding: 20px;
+    color: #ffff;
+    border: 2px solid black;
+}
+/* end display */
+
+.double {
+    flex-basis: 50%;
+}
+
+/* CSS Operator */
+.operator,
+.negative,
+.equals {
+    background: orange;
+}
+/* End Operator */
+
+/* Card */
+.card {
+    box-shadow: 0 8px 8px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 60px;
+    margin-top: 30px;
+
+}
+/* End Card */
+
+/* History */
+.history {
+    width: 90%;
+    margin: 30px auto 0 auto;
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+th,td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: orange;
+    color: #000;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+ }
+/* End History */
+
+/* URL Responsive */
+@media screen and (max-width: 513px) {
+    .button {
+        padding: 5px;
+    }
+}
+
+/* Responsive History */
+@media screen and (max-width: 513px) {
+    .button {
+        padding: 5px;
+    }
+    .history {
+        padding: 10px;
+    }
+}
+/* End Responsive */
